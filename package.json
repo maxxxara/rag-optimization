@@ -1,0 +1,27 @@
+{
+  "name": "rag-chunking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "embed": "bun run src/scripts/embed_docs.ts",
+    "clear": "bun run src/scripts/clear_collection.ts",
+    "test-hash": "bun run src/scripts/test_hash.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.4.12",
+    "@langchain/google-genai": "^0.1.6",
+    "@langchain/mongodb": "^0.1.2",
+    "@langchain/textsplitters": "^0.1.0",
+    "mongodb": "^6.12.0",
+    "tsx": "^4.19.2"
+  }
+}
